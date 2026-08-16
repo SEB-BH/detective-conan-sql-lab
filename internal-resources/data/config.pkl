@@ -1,0 +1,32 @@
+amends "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/static/v2/pkl/template.pkl"
+
+import "microlessons.pkl" as mls
+
+// See template.pkl for full configuration options available here.
+
+// After modifying this file, use this command while in the root directory
+// for this project to create the final configuration file (config.json):
+// pkl eval -f json ./internal-resources/data/config.pkl -o %{moduleDir}/%{moduleName}.%{outputFormat}
+
+repo {
+  friendlyName = "Detective Conan SQL Lab"
+  name = "detective-conan-sql-lab"
+  type = "Lab"
+}
+
+courses {
+  new {
+    name = "seb"
+    microlessons {
+      mls.setup
+      mls.exercise
+    }
+  }
+  new {
+    name = "fallback"
+    microlessons {
+      mls.setup
+      mls.exercise
+    }
+  }
+}

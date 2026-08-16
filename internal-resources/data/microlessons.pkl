@@ -1,0 +1,21 @@
+import "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/static/v2/pkl/template.pkl" as Template
+
+// Add microlessons here, in the order they should be delivered.
+
+setup = new Template.Microlesson {
+  friendlyName = "Setup"
+  dirName = "setup"
+  type = "Content"
+  learningObjective = "Create and inspect the PostgreSQL case database."
+  videoUrl = ""
+  estimatedDeliveryTimeInMinutes = 20
+}
+
+exercise = new Template.Microlesson {
+  friendlyName = "Investigation"
+  dirName = "exercise"
+  type = "Content"
+  learningObjective = "Use SQL filters, sorting, joins, and pattern matching to solve a database mystery."
+  videoUrl = ""
+  estimatedDeliveryTimeInMinutes = 70
+}
