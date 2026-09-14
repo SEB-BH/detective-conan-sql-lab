@@ -64,7 +64,7 @@
 -- Clue #7
 -- At the capital, Conan finds one final note:
 --
---   "Your database counted 148005 people before my arrival.
+--   "Your database counted 148004 people before my arrival.
 --    Add one phantom passenger and search the new total.
 --    Reach that city before midnight, and the pearl is yours."
 --
