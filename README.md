@@ -16,3 +16,5 @@ Use SQL filters, sorting, limits, joins, comparison operators, and pattern match
 
 - [Setup](./setup/README.md)
 - [Exercise](./exercise/README.md)
+
+<img src='https://github.com/SEB-16-Bahrain/assets/blob/main/hamed-base.png?raw=true' width='1'/>
